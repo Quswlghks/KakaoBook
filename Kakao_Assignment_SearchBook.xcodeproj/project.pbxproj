@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF568E5E294F128B003318E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF568E5D294F128B003318E5 /* Assets.xcassets */; };
+		CF697FE8294DAD52006C751E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FD3294DAD52006C751E /* Extension.swift */; };
+		CF697FE9294DAD52006C751E /* APIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FD4294DAD52006C751E /* APIExtension.swift */; };
+		CF697FEC294DAD52006C751E /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FD9294DAD52006C751E /* Books.swift */; };
+		CF697FED294DAD52006C751E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FDB294DAD52006C751E /* MainView.swift */; };
+		CF697FEE294DAD52006C751E /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FDC294DAD52006C751E /* BookDetailView.swift */; };
+		CF697FEF294DAD52006C751E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FDD294DAD52006C751E /* SearchView.swift */; };
+		CF697FF0294DAD52006C751E /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FDE294DAD52006C751E /* BookmarkView.swift */; };
+		CF697FF1294DAD52006C751E /* BookListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FDF294DAD52006C751E /* BookListObject.swift */; };
+		CF697FF2294DAD52006C751E /* BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FE1294DAD52006C751E /* BookListViewModel.swift */; };
+		CF697FF3294DAD52006C751E /* BookmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FE2294DAD52006C751E /* BookmarkViewModel.swift */; };
+		CF697FF4294DAD52006C751E /* BookDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF697FE3294DAD52006C751E /* BookDetailViewModel.swift */; };
+		CF7208A5295037F7004F29B6 /* 카카오북.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7208A4295037F7004F29B6 /* 카카오북.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF0157EE294DACDC0003FCC7 /* Kakao_Assignment_SearchBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kakao_Assignment_SearchBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF568E5D294F128B003318E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF697FD3294DAD52006C751E /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CF697FD4294DAD52006C751E /* APIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIExtension.swift; sourceTree = "<group>"; };
+		CF697FD9294DAD52006C751E /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		CF697FDB294DAD52006C751E /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CF697FDC294DAD52006C751E /* BookDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		CF697FDD294DAD52006C751E /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CF697FDE294DAD52006C751E /* BookmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
+		CF697FDF294DAD52006C751E /* BookListObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListObject.swift; sourceTree = "<group>"; };
+		CF697FE1294DAD52006C751E /* BookListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListViewModel.swift; sourceTree = "<group>"; };
+		CF697FE2294DAD52006C751E /* BookmarkViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkViewModel.swift; sourceTree = "<group>"; };
+		CF697FE3294DAD52006C751E /* BookDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailViewModel.swift; sourceTree = "<group>"; };
+		CF7208A4295037F7004F29B6 /* 카카오북.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "카카오북.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF0157EB294DACDC0003FCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0157E5294DACDC0003FCC7 = {
+			isa = PBXGroup;
+			children = (
+				CF697FCF294DAD52006C751E /* Kakao_Assignment_SearchBook */,
+				CF0157EF294DACDC0003FCC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0157EF294DACDC0003FCC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF0157EE294DACDC0003FCC7 /* Kakao_Assignment_SearchBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF697FCF294DAD52006C751E /* Kakao_Assignment_SearchBook */ = {
+			isa = PBXGroup;
+			children = (
+				CF7208A4295037F7004F29B6 /* 카카오북.swift */,
+				CF568E5D294F128B003318E5 /* Assets.xcassets */,
+				CF697FD1294DAD52006C751E /* Utils */,
+				CF697FD8294DAD52006C751E /* Model */,
+				CF697FDA294DAD52006C751E /* View */,
+				CF697FE0294DAD52006C751E /* ViewModel */,
+			);
+			path = Kakao_Assignment_SearchBook;
+			sourceTree = "<group>";
+		};
+		CF697FD1294DAD52006C751E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF697FD3294DAD52006C751E /* Extension.swift */,
+				CF697FD4294DAD52006C751E /* APIExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CF697FD8294DAD52006C751E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF697FD9294DAD52006C751E /* Books.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF697FDA294DAD52006C751E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF697FDB294DAD52006C751E /* MainView.swift */,
+				CF697FDC294DAD52006C751E /* BookDetailView.swift */,
+				CF697FDD294DAD52006C751E /* SearchView.swift */,
+				CF697FDE294DAD52006C751E /* BookmarkView.swift */,
+				CF697FDF294DAD52006C751E /* BookListObject.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF697FE0294DAD52006C751E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF697FE1294DAD52006C751E /* BookListViewModel.swift */,
+				CF697FE2294DAD52006C751E /* BookmarkViewModel.swift */,
+				CF697FE3294DAD52006C751E /* BookDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF0157ED294DACDC0003FCC7 /* Kakao_Assignment_SearchBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF015801294DACDD0003FCC7 /* Build configuration list for PBXNativeTarget "Kakao_Assignment_SearchBook" */;
+			buildPhases = (
+				CF0157EA294DACDC0003FCC7 /* Sources */,
+				CF0157EB294DACDC0003FCC7 /* Frameworks */,
+				CF0157EC294DACDC0003FCC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kakao_Assignment_SearchBook;
+			productName = Kakao_Assignment_SearchBook;
+			productReference = CF0157EE294DACDC0003FCC7 /* Kakao_Assignment_SearchBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF0157E6294DACDC0003FCC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CF0157ED294DACDC0003FCC7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CF0157E9294DACDC0003FCC7 /* Build configuration list for PBXProject "Kakao_Assignment_SearchBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0157E5294DACDC0003FCC7;
+			productRefGroup = CF0157EF294DACDC0003FCC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF0157ED294DACDC0003FCC7 /* Kakao_Assignment_SearchBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF0157EC294DACDC0003FCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF568E5E294F128B003318E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF0157EA294DACDC0003FCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7208A5295037F7004F29B6 /* 카카오북.swift in Sources */,
+				CF697FF3294DAD52006C751E /* BookmarkViewModel.swift in Sources */,
+				CF697FF0294DAD52006C751E /* BookmarkView.swift in Sources */,
+				CF697FF1294DAD52006C751E /* BookListObject.swift in Sources */,
+				CF697FF4294DAD52006C751E /* BookDetailViewModel.swift in Sources */,
+				CF697FE8294DAD52006C751E /* Extension.swift in Sources */,
+				CF697FE9294DAD52006C751E /* APIExtension.swift in Sources */,
+				CF697FEF294DAD52006C751E /* SearchView.swift in Sources */,
+				CF697FF2294DAD52006C751E /* BookListViewModel.swift in Sources */,
+				CF697FEC294DAD52006C751E /* Books.swift in Sources */,
+				CF697FED294DAD52006C751E /* MainView.swift in Sources */,
+				CF697FEE294DAD52006C751E /* BookDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF0157FF294DACDD0003FCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF015800294DACDD0003FCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF015802294DACDD0003FCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kakao_Assignment_SearchBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZJ2QL8TK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "카카오북";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ByeonJiHwan.Kakao-Assignment-SearchBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF015803294DACDD0003FCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kakao_Assignment_SearchBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZJ2QL8TK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "카카오북";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ByeonJiHwan.Kakao-Assignment-SearchBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF0157E9294DACDC0003FCC7 /* Build configuration list for PBXProject "Kakao_Assignment_SearchBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0157FF294DACDD0003FCC7 /* Debug */,
+				CF015800294DACDD0003FCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF015801294DACDD0003FCC7 /* Build configuration list for PBXNativeTarget "Kakao_Assignment_SearchBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF015802294DACDD0003FCC7 /* Debug */,
+				CF015803294DACDD0003FCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF0157E6294DACDC0003FCC7 /* Project object */;
+}
